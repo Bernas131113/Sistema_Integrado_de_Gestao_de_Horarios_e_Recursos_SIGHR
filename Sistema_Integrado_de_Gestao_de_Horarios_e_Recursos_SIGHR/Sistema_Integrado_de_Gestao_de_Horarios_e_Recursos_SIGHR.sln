@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_Integrado_de_Gestao_de_Horarios_e_Recursos_SIGHR", "Sistema_Integrado_de_Gestao_de_Horarios_e_Recursos_SIGHR.csproj", "{8F92A792-A1DD-4C20-80A4-6B637D347E26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F92A792-A1DD-4C20-80A4-6B637D347E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F92A792-A1DD-4C20-80A4-6B637D347E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F92A792-A1DD-4C20-80A4-6B637D347E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F92A792-A1DD-4C20-80A4-6B637D347E26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B06E457-6A31-4DBD-B95E-7871FB71F632}
+	EndGlobalSection
+EndGlobal
