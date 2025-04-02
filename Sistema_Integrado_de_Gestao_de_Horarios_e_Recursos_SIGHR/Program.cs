@@ -1,4 +1,10 @@
+using Sistema_Integrado_de_Gestao_de_Horarios_e_Recursos_SIGHR.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer("Server=localhost;Database=Sistema_Integrado_de_Gestao_de_Horarios_e_Recursos_SIGHR;Trusted_Connection=True;"));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
