@@ -20,7 +20,7 @@
         public string Tipo { get; set; }
 
         public ICollection<Horario> Horarios { get; set; }
-        public ICollection<Falta> Falta { get; set; }
+        public ICollection<Faltas> Faltas { get; set; }
         public ICollection<Encomenda> Encomendas { get; set; }
     }
 }

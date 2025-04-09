@@ -1,11 +1,32 @@
 ﻿namespace Sistema_Integrado_de_Gestao_de_Horarios_e_Recursos_SIGHR.Models
 {
-    public class Falta
+    using System;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+
+    public class Faltas
     {
-        public int Id { get; set; }
-        public int UtilizadorId { get; set; }
-        public Utilizador ? Utilizador { get; set; }
+        public long Id { get; set; }
+
+        [Required]
+        public long UtilizadorId { get; set; }
+
+        [Required]
         public DateTime Data { get; set; }
-        public string? Motivo { get; set; }
+
+        [Required]
+        public DateTime DataFalta { get; set; }
+
+        [Required]
+        public DateTime Inicio { get; set; }
+
+        [Required]
+        public DateTime Fim { get; set; }
+
+        [Required]
+        public string Motivo { get; set; }
+
+        [ForeignKey("UtilizadorId")]
+        public Utilizador Utilizador { get; set; }
     }
 }
